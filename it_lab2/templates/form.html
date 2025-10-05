@@ -1,0 +1,26 @@
+<h1>Форма обратной связи</h1>
+<p>Заполните форму ниже и мы свяжемся с вами в ближайшее время.</p>
+
+<form action="/submit" method="post">
+    <div class="form-group">
+        <label for="name">Имя *</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="subject">Тема сообщения</label>
+        <input type="text" id="subject" name="subject">
+    </div>
+    
+    <div class="form-group">
+        <label for="message">Текст сообщения *</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+    </div>
+    
+    <button type="submit">Отправить сообщение</button>
+</form>
